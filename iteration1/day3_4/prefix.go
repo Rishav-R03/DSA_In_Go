@@ -49,7 +49,7 @@ func divideArray(arr []int) (bool, [][]int) {
 }
 
 func main() {
-	arr := []int{1, 2, 3, 0}
+	arr := []int{1, 2, 8, 6, 3, 0, 9, 5}
 	fmt.Println(prefix(arr))
 	fmt.Println(suffix(arr))
 	resultSubArrays := listAllSubArrays(arr)
